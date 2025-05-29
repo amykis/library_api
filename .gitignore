@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches
+*.cache
+*.log
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Environment variables
+.env
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Pytest
+.cache/
+.coverage
+htmlcov/
+
+# Migrations
+alembic/versions/
+
+# MyPy / Pylint / coverage reports
+.mypy_cache/
+.pytest_cache/
+.tox/
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+
+# Compiled translations
+*.mo
+
+# Local dev scripts/output
+scripts/__pycache__/
