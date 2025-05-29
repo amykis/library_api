@@ -15,3 +15,8 @@ class ReaderResponse(ReaderBase):
     id: int
 
     model_config = {"from_attributes": True}
+
+
+class ReaderUpdate(ReaderBase):
+    name: Optional[str] = None
+    email: Optional[str] = None
